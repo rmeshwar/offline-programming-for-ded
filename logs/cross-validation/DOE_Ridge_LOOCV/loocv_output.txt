@@ -1,0 +1,28 @@
+
+================================================================================
+LOOCV for Ratio of Valley Area to Bead Area
+================================================================================
+Ridge LOOCV R² for Ratio of Valley Area to Bead Area: 0.1958
+Ridge Mean LOOCV MSE for Ratio of Valley Area to Bead Area: 0.000647
+
+
+================================================================================
+LOOCV for Ratio of Bead Heights
+================================================================================
+Ridge LOOCV R² for Ratio of Bead Heights: 0.4199
+Ridge Mean LOOCV MSE for Ratio of Bead Heights: 0.005183
+
+
+================================================================================
+LOOCV for Ratio of Upper Bead Height and Lowest Valley Point Height
+================================================================================
+Ridge LOOCV R² for Ratio of Upper Bead Height and Lowest Valley Point Height: -0.0496
+Ridge Mean LOOCV MSE for Ratio of Upper Bead Height and Lowest Valley Point Height: 1.019662
+
+
+================================================================================
+LOOCV for Ratio of Deposition Width to Lowest Valley Point Height
+================================================================================
+Ridge LOOCV R² for Ratio of Deposition Width to Lowest Valley Point Height: 0.0369
+Ridge Mean LOOCV MSE for Ratio of Deposition Width to Lowest Valley Point Height: 37.001775
+

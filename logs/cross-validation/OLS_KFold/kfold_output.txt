@@ -1,0 +1,64 @@
+
+================================================================================
+K-Fold CV for Ratio of Valley Area to Bead Area
+================================================================================
+OLS K-Fold R² for Ratio of Valley Area to Bead Area: 0.7995
+OLS Mean K-Fold MSE for Ratio of Valley Area to Bead Area: 0.000735
+
+Ridge K-Fold R² for Ratio of Valley Area to Bead Area: 0.7727
+Ridge Mean K-Fold MSE for Ratio of Valley Area to Bead Area: 0.000833
+
+Lasso K-Fold R² for Ratio of Valley Area to Bead Area: 0.6625
+Lasso Mean K-Fold MSE for Ratio of Valley Area to Bead Area: 0.001237
+
+ElasticNet K-Fold R² for Ratio of Valley Area to Bead Area: 0.6680
+ElasticNet Mean K-Fold MSE for Ratio of Valley Area to Bead Area: 0.001217
+
+
+================================================================================
+K-Fold CV for Ratio of Bead Heights
+================================================================================
+OLS K-Fold R² for Ratio of Bead Heights: 0.8479
+OLS Mean K-Fold MSE for Ratio of Bead Heights: 0.005471
+
+Ridge K-Fold R² for Ratio of Bead Heights: 0.8721
+Ridge Mean K-Fold MSE for Ratio of Bead Heights: 0.004602
+
+Lasso K-Fold R² for Ratio of Bead Heights: 0.6729
+Lasso Mean K-Fold MSE for Ratio of Bead Heights: 0.011767
+
+ElasticNet K-Fold R² for Ratio of Bead Heights: 0.6683
+ElasticNet Mean K-Fold MSE for Ratio of Bead Heights: 0.011933
+
+
+================================================================================
+K-Fold CV for Ratio of Upper Bead Height and Lowest Valley Point Height
+================================================================================
+OLS K-Fold R² for Ratio of Upper Bead Height and Lowest Valley Point Height: 0.5630
+OLS Mean K-Fold MSE for Ratio of Upper Bead Height and Lowest Valley Point Height: 1.901301
+
+Ridge K-Fold R² for Ratio of Upper Bead Height and Lowest Valley Point Height: 0.5581
+Ridge Mean K-Fold MSE for Ratio of Upper Bead Height and Lowest Valley Point Height: 1.922599
+
+Lasso K-Fold R² for Ratio of Upper Bead Height and Lowest Valley Point Height: 0.5289
+Lasso Mean K-Fold MSE for Ratio of Upper Bead Height and Lowest Valley Point Height: 2.049882
+
+ElasticNet K-Fold R² for Ratio of Upper Bead Height and Lowest Valley Point Height: 0.4822
+ElasticNet Mean K-Fold MSE for Ratio of Upper Bead Height and Lowest Valley Point Height: 2.253044
+
+
+================================================================================
+K-Fold CV for Ratio of Deposition Width to Lowest Valley Point Height
+================================================================================
+OLS K-Fold R² for Ratio of Deposition Width to Lowest Valley Point Height: 0.6134
+OLS Mean K-Fold MSE for Ratio of Deposition Width to Lowest Valley Point Height: 69.378815
+
+Ridge K-Fold R² for Ratio of Deposition Width to Lowest Valley Point Height: 0.6133
+Ridge Mean K-Fold MSE for Ratio of Deposition Width to Lowest Valley Point Height: 69.401094
+
+Lasso K-Fold R² for Ratio of Deposition Width to Lowest Valley Point Height: 0.6022
+Lasso Mean K-Fold MSE for Ratio of Deposition Width to Lowest Valley Point Height: 71.398897
+
+ElasticNet K-Fold R² for Ratio of Deposition Width to Lowest Valley Point Height: 0.5857
+ElasticNet Mean K-Fold MSE for Ratio of Deposition Width to Lowest Valley Point Height: 74.357328
+

@@ -1,0 +1,28 @@
+
+================================================================================
+K-Fold CV for Ratio of Valley Area to Bead Area
+================================================================================
+Ridge K-Fold R² for Ratio of Valley Area to Bead Area: 0.8184
+Ridge Mean K-Fold MSE for Ratio of Valley Area to Bead Area: 0.000702
+
+
+================================================================================
+K-Fold CV for Ratio of Bead Heights
+================================================================================
+Ridge K-Fold R² for Ratio of Bead Heights: 0.8693
+Ridge Mean K-Fold MSE for Ratio of Bead Heights: 0.005605
+
+
+================================================================================
+K-Fold CV for Ratio of Upper Bead Height and Lowest Valley Point Height
+================================================================================
+Ridge K-Fold R² for Ratio of Upper Bead Height and Lowest Valley Point Height: 0.7676
+Ridge Mean K-Fold MSE for Ratio of Upper Bead Height and Lowest Valley Point Height: 1.083486
+
+
+================================================================================
+K-Fold CV for Ratio of Deposition Width to Lowest Valley Point Height
+================================================================================
+Ridge K-Fold R² for Ratio of Deposition Width to Lowest Valley Point Height: 0.7872
+Ridge Mean K-Fold MSE for Ratio of Deposition Width to Lowest Valley Point Height: 39.243538
+

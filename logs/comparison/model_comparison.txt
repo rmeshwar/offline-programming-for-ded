@@ -1,0 +1,341 @@
+
+Evaluating model: saved_models/OLS_ridge/neural_network_model.keras
+Using dataset: OLS Synthetic Data
+Data file: data/synthetic/synthetic_data_ridge_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m5s[0m 340ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 5ms/step  
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 5ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.025851               0.024722  ...                 5.976706                    5.718118
+1            0.021588               0.024868  ...                 5.737409                    5.717092
+2            0.024717               0.024474  ...                 6.079775                    5.987217
+3            0.022847               0.024391  ...                 6.224275                    6.052461
+4            0.023246               0.024502  ...                 6.098022                    5.860501
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [2.86450497e-06 3.87225564e-03 7.40138320e-03 1.19432937e-01]
+MAE for each variable: [0.00143794 0.05980137 0.08130323 0.31964528]
+
+Evaluating model: saved_models/OLS_ridge/neural_network_model.keras
+Using dataset: DOE Synthetic Data
+Data file: data/synthetic/expanded_synthetic_data_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m1s[0m 70ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.006035               0.024848  ...                 1.905297                    5.659724
+1            0.021859               0.024825  ...                 4.753124                    5.526582
+2            0.025843               0.024797  ...                 4.971722                    5.476293
+3            0.007131               0.024835  ...                 1.681120                    5.620863
+4            0.019096               0.024783  ...                 4.645764                    5.517045
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [1.38843294e-04 6.66771967e-03 1.21585473e-01 7.01609739e+00]
+MAE for each variable: [0.00856899 0.07084401 0.25123393 2.04221104]
+
+Evaluating model: saved_models/OLS_ridge/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 81ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 81ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176               0.024848  ...                 2.191962                    5.659724
+1            0.015588               0.024825  ...                 3.043517                    5.526582
+2            0.072678               0.024797  ...                 7.202128                    5.476293
+3            0.004938               0.024835  ...                 2.437333                    5.620863
+4            0.010775               0.024783  ...                 3.580328                    5.517045
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [8.06085051e-04 1.17489891e-02 9.84008846e-01 3.86460288e+01]
+MAE for each variable: [0.01853524 0.08282963 0.46587568 2.77140333]
+
+Evaluating model: saved_models/DOE_Ridge/neural_network_model.keras
+Using dataset: OLS Synthetic Data
+Data file: data/synthetic/synthetic_data_ridge_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 53ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 5ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 5ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.025851               0.118751  ...                 5.976706                   21.812340
+1            0.021588               0.017651  ...                 5.737409                    1.446956
+2            0.024717               0.008193  ...                 6.079775                    3.285794
+3            0.022847               0.024958  ...                 6.224275                    5.666759
+4            0.023246               0.012534  ...                 6.098022                    3.514419
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [1.56338200e-03 8.91052567e-02 1.20520572e+00 4.63452246e+01]
+MAE for each variable: [0.02808428 0.20363187 0.78241963 4.97560834]
+
+Evaluating model: saved_models/DOE_Ridge/neural_network_model.keras
+Using dataset: DOE Synthetic Data
+Data file: data/synthetic/expanded_synthetic_data_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 65ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.006035               0.014162  ...                 1.905297                    1.732843
+1            0.021859               0.017020  ...                 4.753124                    4.667740
+2            0.025843               0.019561  ...                 4.971722                    4.795784
+3            0.007131               0.014019  ...                 1.681120                    1.645117
+4            0.019096               0.014087  ...                 4.645764                    4.584846
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [3.65276091e-05 1.99460826e-02 1.65554063e-02 7.85686417e-02]
+MAE for each variable: [0.00572443 0.12706265 0.11428687 0.2319153 ]
+
+Evaluating model: saved_models/DOE_Ridge/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 64ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 64ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176               0.014162  ...                 2.191962                    1.732843
+1            0.015588               0.017020  ...                 3.043517                    4.667740
+2            0.072678               0.019561  ...                 7.202128                    4.795784
+3            0.004938               0.014019  ...                 2.437333                    1.645117
+4            0.010775               0.014087  ...                 3.580328                    4.584846
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [3.99886165e-04 2.73095250e-02 6.34543528e-01 2.28342236e+01]
+MAE for each variable: [0.01241952 0.13642851 0.43338528 2.30507524]
+
+Evaluating model: saved_models/OLS_ridge_NODROPOUT/neural_network_model.keras
+Using dataset: OLS Synthetic Data
+Data file: data/synthetic/synthetic_data_ridge_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 63ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.025851              -0.021611  ...                 5.976706                    6.007555
+1            0.021588              -0.004471  ...                 5.737409                    5.866935
+2            0.024717               0.048918  ...                 6.079775                    6.164504
+3            0.022847              -0.014117  ...                 6.224275                    6.349736
+4            0.023246               0.028586  ...                 6.098022                    6.073119
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [0.00057971 0.00072213 0.00067808 0.00648922]
+MAE for each variable: [0.01972087 0.02075954 0.01924916 0.06156225]
+
+Evaluating model: saved_models/OLS_ridge_NODROPOUT/neural_network_model.keras
+Using dataset: DOE Synthetic Data
+Data file: data/synthetic/expanded_synthetic_data_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 64ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.006035               0.014967  ...                 1.905297                    5.875052
+1            0.021859               0.027812  ...                 4.753124                    5.808599
+2            0.025843               0.020165  ...                 4.971722                    5.714038
+3            0.007131              -0.009401  ...                 1.681120                    5.786871
+4            0.019096               0.040610  ...                 4.645764                    5.857978
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [7.86448182e-04 3.12737186e-03 1.10582170e-01 6.65701160e+00]
+MAE for each variable: [0.02302617 0.04568141 0.23857712 2.01957257]
+
+Evaluating model: saved_models/OLS_ridge_NODROPOUT/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 69ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 69ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176               0.014967  ...                 2.191962                    5.875052
+1            0.015588               0.027812  ...                 3.043517                    5.808599
+2            0.072678               0.020165  ...                 7.202128                    5.714038
+3            0.004938              -0.009401  ...                 2.437333                    5.786871
+4            0.010775               0.040610  ...                 3.580328                    5.857978
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [1.79752840e-03 8.71765363e-03 9.83541077e-01 3.83495821e+01]
+MAE for each variable: [0.03428159 0.08082106 0.54680137 3.02722338]
+
+Evaluating model: saved_models/DOE_Ridge_NODROPOUT/neural_network_model.keras
+Using dataset: OLS Synthetic Data
+Data file: data/synthetic/synthetic_data_ridge_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 60ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.025851               0.216277  ...                 5.976706                   23.582388
+1            0.021588               0.042745  ...                 5.737409                    1.476705
+2            0.024717               0.016244  ...                 6.079775                    2.651152
+3            0.022847               0.164567  ...                 6.224275                    7.182531
+4            0.023246               0.069244  ...                 6.098022                    3.054842
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [4.93754850e-03 1.08514607e-01 1.67287865e+00 6.01680488e+01]
+MAE for each variable: [0.05184791 0.25012753 0.89698891 5.71764071]
+
+Evaluating model: saved_models/DOE_Ridge_NODROPOUT/neural_network_model.keras
+Using dataset: DOE Synthetic Data
+Data file: data/synthetic/expanded_synthetic_data_500_samples.xlsx
+--------------------------------------------------
+
+[1m 1/16[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 48ms/step
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step 
+[1m16/16[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.006035              -0.002047  ...                 1.905297                    1.911781
+1            0.021859               0.015520  ...                 4.753124                    4.764445
+2            0.025843               0.014669  ...                 4.971722                    4.983425
+3            0.007131               0.011008  ...                 1.681120                    1.693067
+4            0.019096               0.025926  ...                 4.645764                    4.631611
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [0.00018443 0.00029647 0.00022933 0.00031851]
+MAE for each variable: [0.01051152 0.01237154 0.01157299 0.01318948]
+
+Evaluating model: saved_models/DOE_Ridge_NODROPOUT/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 55ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 56ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176              -0.002047  ...                 2.191962                    1.911781
+1            0.015588               0.015520  ...                 3.043517                    4.764445
+2            0.072678               0.014669  ...                 7.202128                    4.983425
+3            0.004938               0.011008  ...                 2.437333                    1.693067
+4            0.010775               0.025926  ...                 3.580328                    4.631611
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [6.60111101e-04 4.20869960e-03 6.04665137e-01 2.20938801e+01]
+MAE for each variable: [0.01804655 0.05164804 0.43588466 2.39723222]
+
+Comparison Results Summary:
+                                                                                                                                                                                                            OLS_Ridge                                                                                                                                                                                        DOE_Ridge                                                                                                                                                                                  OLS_Ridge_NODROPOUT                                                                                                                                                                                       DOE_Ridge_NODROPOUT
+OLS Synthetic Data  {'MSE': [2.8645049687799984e-06, 0.003872255639005992, 0.007401383198792291, 0.11943293701319577], 'MAE': [0.0014379397415345036, 0.05980137203808551, 0.08130323021828212, 0.31964528320022423]}         {'MSE': [0.0015633819998834228, 0.08910525667755108, 1.2052057167929677, 46.34522456583361], 'MAE': [0.028084276351606777, 0.20363186883783652, 0.7824196285383209, 4.9756083356232015]}  {'MSE': [0.0005797052039225435, 0.0007221283343646065, 0.0006780762115284788, 0.0064892179868566505], 'MAE': [0.019720873658170147, 0.02075954264708584, 0.01924915893170424, 0.06156224975244716]}                      {'MSE': [0.004937548501128003, 0.10851460650881119, 1.672878651942426, 60.168048830691966], 'MAE': [0.05184791428670225, 0.2501275326352338, 0.8969889127130702, 5.717640705237873]}
+DOE Synthetic Data        {'MSE': [0.000138843293678086, 0.0066677196677226835, 0.12158547280952031, 7.0160973928423545], 'MAE': [0.00856899128298424, 0.07084401460979055, 0.25123393208550115, 2.0422110418702664]}  {'MSE': [3.652760908600588e-05, 0.019946082560937852, 0.016555406312568008, 0.07856864167158042], 'MAE': [0.005724431196518247, 0.12706265029814354, 0.11428687436731294, 0.23191530053443518]}           {'MSE': [0.0007864481817242435, 0.0031273718591028603, 0.11058216970808818, 6.65701159560494], 'MAE': [0.02302617342009408, 0.04568140618326857, 0.23857712271145026, 2.0195725683595245]}  {'MSE': [0.00018443291317271797, 0.00029647113024625424, 0.00022933231709884738, 0.000318511263815178], 'MAE': [0.010511520874205349, 0.012371544035217279, 0.011572989384866408, 0.013189477709839801]}
+Experimental Data             {'MSE': [0.0008060850511719496, 0.011748989060372597, 0.9840088461401577, 38.64602879989805], 'MAE': [0.01853523538716855, 0.0828296309790407, 0.46587568076261965, 2.771403327075198]}            {'MSE': [0.0003998861652153136, 0.027309524973122095, 0.63454352828664, 22.834223605845025], 'MAE': [0.012419519015756718, 0.136428511009805, 0.4333852847869693, 2.305075244951154]}              {'MSE': [0.0017975284007540973, 0.008717653627109736, 0.9835410771139671, 38.34958213039847], 'MAE': [0.03428159114352139, 0.0808210572260051, 0.5468013689101645, 3.0272233774783763]}                  {'MSE': [0.000660111100680212, 0.0042086996020172145, 0.6046651367050612, 22.0938801431813], 'MAE': [0.0180465504504386, 0.051648038317849136, 0.43588465574889007, 2.3972322164455107]}
+
+Model Performance on Experimental Data:
+
+Evaluating model: saved_models/OLS_ridge/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 50ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 50ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176               0.024848  ...                 2.191962                    5.659724
+1            0.015588               0.024825  ...                 3.043517                    5.526582
+2            0.072678               0.024797  ...                 7.202128                    5.476293
+3            0.004938               0.024835  ...                 2.437333                    5.620863
+4            0.010775               0.024783  ...                 3.580328                    5.517045
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [8.06085051e-04 1.17489891e-02 9.84008846e-01 3.86460288e+01]
+MAE for each variable: [0.01853524 0.08282963 0.46587568 2.77140333]
+
+Evaluating model: saved_models/DOE_Ridge/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 64ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 64ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176               0.014162  ...                 2.191962                    1.732843
+1            0.015588               0.017020  ...                 3.043517                    4.667740
+2            0.072678               0.019561  ...                 7.202128                    4.795784
+3            0.004938               0.014019  ...                 2.437333                    1.645117
+4            0.010775               0.014087  ...                 3.580328                    4.584846
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [3.99886165e-04 2.73095250e-02 6.34543528e-01 2.28342236e+01]
+MAE for each variable: [0.01241952 0.13642851 0.43338528 2.30507524]
+
+Evaluating model: saved_models/OLS_ridge_NODROPOUT/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 45ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 45ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176               0.014967  ...                 2.191962                    5.875052
+1            0.015588               0.027812  ...                 3.043517                    5.808599
+2            0.072678               0.020165  ...                 7.202128                    5.714038
+3            0.004938              -0.009401  ...                 2.437333                    5.786871
+4            0.010775               0.040610  ...                 3.580328                    5.857978
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [1.79752840e-03 8.71765363e-03 9.83541077e-01 3.83495821e+01]
+MAE for each variable: [0.03428159 0.08082106 0.54680137 3.02722338]
+
+Evaluating model: saved_models/DOE_Ridge_NODROPOUT/neural_network_model.keras
+Using dataset: Experimental Data
+Data file: data/new_DED.xlsx
+--------------------------------------------------
+
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 55ms/step
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 55ms/step
+Sample Predictions:
+   Actual Valley Area  Predicted Valley Area  ...  Actual Deposition Width  Predicted Deposition Width
+0            0.002176              -0.002047  ...                 2.191962                    1.911781
+1            0.015588               0.015520  ...                 3.043517                    4.764445
+2            0.072678               0.014669  ...                 7.202128                    4.983425
+3            0.004938               0.011008  ...                 2.437333                    1.693067
+4            0.010775               0.025926  ...                 3.580328                    4.631611
+
+[5 rows x 8 columns] 
+
+MSE for each variable: [6.60111101e-04 4.20869960e-03 6.04665137e-01 2.20938801e+01]
+MAE for each variable: [0.01804655 0.05164804 0.43588466 2.39723222]
+                                                                                                      MSE                                                                                  MAE
+OLS_Ridge            [0.0008060850511719496, 0.011748989060372597, 0.9840088461401577, 38.64602879989805]    [0.01853523538716855, 0.0828296309790407, 0.46587568076261965, 2.771403327075198]
+DOE_Ridge             [0.0003998861652153136, 0.027309524973122095, 0.63454352828664, 22.834223605845025]     [0.012419519015756718, 0.136428511009805, 0.4333852847869693, 2.305075244951154]
+OLS_Ridge_NODROPOUT  [0.0017975284007540973, 0.008717653627109736, 0.9835410771139671, 38.34958213039847]    [0.03428159114352139, 0.0808210572260051, 0.5468013689101645, 3.0272233774783763]
+DOE_Ridge_NODROPOUT   [0.000660111100680212, 0.0042086996020172145, 0.6046651367050612, 22.0938801431813]  [0.0180465504504386, 0.051648038317849136, 0.43588465574889007, 2.3972322164455107]

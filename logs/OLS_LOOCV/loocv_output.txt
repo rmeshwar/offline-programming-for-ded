@@ -1,0 +1,80 @@
+
+================================================================================
+LOOCV for Ratio of Valley Area to Bead Area
+================================================================================
+
+OLS Regression Results for Ratio of Valley Area to Bead Area:
+LOOCV R²: -1.8785
+Mean LOOCV MSE: 0.002316
+
+Ridge Regression Results for Ratio of Valley Area to Bead Area:
+LOOCV R²: 0.5019
+Mean LOOCV MSE: 0.000401
+
+Lasso Regression Results for Ratio of Valley Area to Bead Area:
+LOOCV R²: 0.1218
+Mean LOOCV MSE: 0.000707
+
+ElasticNet Regression Results for Ratio of Valley Area to Bead Area:
+LOOCV R²: 0.3188
+Mean LOOCV MSE: 0.000548
+
+================================================================================
+LOOCV for Ratio of Bead Heights
+================================================================================
+
+OLS Regression Results for Ratio of Bead Heights:
+LOOCV R²: 0.3388
+Mean LOOCV MSE: 0.005907
+
+Ridge Regression Results for Ratio of Bead Heights:
+LOOCV R²: 0.0866
+Mean LOOCV MSE: 0.008160
+
+Lasso Regression Results for Ratio of Bead Heights:
+LOOCV R²: 0.5043
+Mean LOOCV MSE: 0.004429
+
+ElasticNet Regression Results for Ratio of Bead Heights:
+LOOCV R²: 0.4973
+Mean LOOCV MSE: 0.004491
+
+================================================================================
+LOOCV for Ratio of Upper Bead Height and Lowest Valley Point Height
+================================================================================
+
+OLS Regression Results for Ratio of Upper Bead Height and Lowest Valley Point Height:
+LOOCV R²: -2.0112
+Mean LOOCV MSE: 2.925265
+
+Ridge Regression Results for Ratio of Upper Bead Height and Lowest Valley Point Height:
+LOOCV R²: -0.4704
+Mean LOOCV MSE: 1.428452
+
+Lasso Regression Results for Ratio of Upper Bead Height and Lowest Valley Point Height:
+LOOCV R²: -0.1730
+Mean LOOCV MSE: 1.139528
+
+ElasticNet Regression Results for Ratio of Upper Bead Height and Lowest Valley Point Height:
+LOOCV R²: -0.3747
+Mean LOOCV MSE: 1.335496
+
+================================================================================
+LOOCV for Ratio of Deposition Width to Lowest Valley Point Height
+================================================================================
+
+OLS Regression Results for Ratio of Deposition Width to Lowest Valley Point Height:
+LOOCV R²: -1.7383
+Mean LOOCV MSE: 105.199255
+
+Ridge Regression Results for Ratio of Deposition Width to Lowest Valley Point Height:
+LOOCV R²: -0.2004
+Mean LOOCV MSE: 46.115293
+
+Lasso Regression Results for Ratio of Deposition Width to Lowest Valley Point Height:
+LOOCV R²: -0.2488
+Mean LOOCV MSE: 47.974720
+
+ElasticNet Regression Results for Ratio of Deposition Width to Lowest Valley Point Height:
+LOOCV R²: -0.2457
+Mean LOOCV MSE: 47.855631
