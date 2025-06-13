@@ -53,6 +53,8 @@ python 'script name here'.py
 
 Following is an explanation of each script in the repository, their functionality, and their usage.
 
+- **gui_application.py**: A GUI application to provide a graphical display of predicted stepover values and their estimated loss based on inputted wire feed speed and travel speed.
+
 **neural_network_training**
 - **OLS_ridge.py**: Creates a set of synthetic data from the starting data using OLS regression with Ridge regularization.
 - **OLS_ridge_network.py**: Creates and trains a neural network off of the OLS_ridge synthetic data.
@@ -73,4 +75,4 @@ Following is an explanation of each script in the repository, their functionalit
 - **New_Data_Comparison_Test.py**: A test script which was used to compare the OLD models, before the 8 new samples were added, based on their predictive power in relation to those 8 new samples. It used those 8 samples as unseen, real-world data to provide a more accurate comparison of the models.
 
 
-- **gui_application.py**: A GUI application to provide a graphical display of predicted stepover values and their estimated loss based on inputted wire feed speed and travel speed.
+
