@@ -1,0 +1,11 @@
+# build artifacts
+build/
+dist/
+saved_models/
+logs/
+images/
+*.pkl
+*.h5
+*.keras
+*.exe
+*.zip
