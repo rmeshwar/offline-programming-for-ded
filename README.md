@@ -1,4 +1,4 @@
-# Software-Assisted Ded Robot Programming Neural Network
+# Artificial Intelligence and Statistical Mapping Applied to Additive Manufacturing Toolpath Optimization in Wire-arc DED 
 
 This project is focused on creating an offline programming tool for Wire-Arc DED using synthetic data generation and neural networks.
 
