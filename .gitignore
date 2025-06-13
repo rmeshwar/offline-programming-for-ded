@@ -1,11 +1,21 @@
-# build artifacts
+# Ignore build artifacts
 build/
 dist/
-saved_models/
-logs/
+
+# Ignore images (generated)
 images/
-*.pkl
-*.h5
-*.keras
-*.exe
-*.zip
+
+# Ignore logs (generated)
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE/editor files
+*.vscode/
+*.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
