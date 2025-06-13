@@ -15,8 +15,8 @@ To set up the project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://code.osu.edu/gofman.4/software-assisted-ded-robot-programming
-   cd software-assisted-ded-robot-programming
+   git clone https://github.com/rmeshwar/offline-programming-for-ded.git
+   cd offline-programming-for-ded
    ```
 
 2. **Create a virtual environment:**
